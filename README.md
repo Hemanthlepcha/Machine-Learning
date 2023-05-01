@@ -12,7 +12,7 @@ from keras.models import load_model
 model = load_model('path/to/saved/model.h5')
 
 # Make predictions on new data
-predictions = model.predict(np.expand_dims(resize/255,0))
+yhat = model.predict(np.expand_dims(resize/255,0))
 
 # Do something with the predictions
 if yhat < 0.5:
