@@ -1,7 +1,6 @@
 # Machine-Learning
-In this repo it contains some of the realtime project on machine learning
-
-#how to run this project?
+This one my first project based on machine learning where i have built a sequential model which classifies the emotion ( Binary classification)
+## how to run this project?
 To load and use a saved model in Keras, you can use the `load_model()` function from the `keras.models` module. Here's an example code snippet to load a saved `.h5` file and make predictions on new data:
 
 ```python
