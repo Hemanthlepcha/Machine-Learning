@@ -1,4 +1,5 @@
-# Machine-Learning
+# EmotionAi-Classifying emotion
+<b> # 2nd year project </b> <br>
 This one my first project based on machine learning where i have built a sequential model which classifies the emotion ( Binary classification)
 ## how to run this project?
 To load and use a saved model in Keras, you can use the `load_model()` function from the `keras.models` module. Here's an example code snippet to load a saved `.h5` file and make predictions on new data:
@@ -23,3 +24,4 @@ else:
 In the above code, `new_data` represents the data on which you want to make predictions. The `predict()` method of the loaded model can be used to make predictions on new data. You can then use the predictions for further processing as per your requirements.
 
 Note that when loading the saved model, it's important to use the same version of TensorFlow and Keras that were used to train and save the model.
+
